@@ -5,9 +5,9 @@ function TrendingBook(props) {
                 <img src={props.imageUrl} alt="book_title" className="img-fluid float-start" />
             </div>
             <div className="trendBtn my-3">
-                   <a href="#action1" className={props.btnStyle}>
+                   <button href="#action1" className={props.btnStyle}>
                     {props.status}
-                </a>
+                </button>
                 
             </div>
 
