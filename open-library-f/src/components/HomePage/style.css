@@ -1,0 +1,196 @@
+body{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif !important;
+}
+.w-79{
+  width: 79% !important;
+}
+.mainBody{
+  border-top:1px solid #babbae;
+  border-right:1px solid #babbae;
+  border-left:1px solid #babbae;
+ 
+
+}
+.header{
+  background-color: #000;
+  height: 35px;
+  width: 100%;
+}
+.libHead{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+  font-size: 1.2em;
+    font-weight: 400;
+    color: #02598b;
+    margin-bottom: 0.8em;
+    margin-top: 1.75em;
+}
+
+.photos{
+  max-width: 160px;
+}
+.m-auto{
+  margin: auto;
+}
+
+.donateBtn {
+    text-decoration: none;
+    padding: 0.1rem 0.4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: none;
+    border: 1px solid #999;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.donateBtn:hover{
+  color: #fff;
+}
+
+.bookCard{
+  border: 1px solid #999;
+  background-color: beige;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-item-align: center;
+}
+/*navbar styling*/
+.signup-btn,.blue-btn{
+background-color: #0376b8;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+.signup-btn:hover {
+  color: #fff;
+  
+  background-color: #0376b8;
+  }
+  /*announcement*/
+  .announce{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #333;
+  }
+  .banner-text{
+    font-size: 0.9rem;
+  }
+/*open library books section*/
+.bookCard{
+  min-width: 310px;
+  width: 310px;
+  border: 1px solid #ddd; 
+  border-radius:  5px;
+  padding: 10px;
+  background-color: #fcfbf7;
+  height: 130px;
+}
+.cardImage{
+  width: 80px;
+  height: 80px;
+  opacity: 80%;
+
+}
+.bookTitle{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.bookBody{
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+  color: #a19b9e;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.booksDesc {
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+ }
+ .slick-list{
+  width: 95%;
+  margin: auto !important;
+ }
+ .slick-next:before {
+  content: '→';
+}
+.slick-prev:before, .slick-next:before{
+  color:hsl(202, 96%, 37%) !important;
+  font-size: 35px !important;
+  
+}
+.slick-prev, .slick-next{
+  width: 35px !important;
+  height: 40px !important;
+}
+.slick-prev{
+  left: -9px !important;
+}
+.slick-next {
+  right: -5px !important;
+  width: 40px !important;
+  height: 35px !important;
+}
+/*trending library*/
+.beige_background{
+  background-color:#f3edd7;
+  border-bottom: 1px solid #babbae;
+  border-right: 1px solid #babbae;
+  border-left:  1px solid #babbae;
+}
+
+.trendBook{
+  width: 134px;
+  height: 200px;
+  background-color:#f3edd7;
+  overflow: hidden;
+}
+
+.trendBtn{
+  width:134px ;
+}
+
+.active-btn, .notActive-btn{
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.5em;
+  text-decoration: none;
+  transition: background-color .2s;
+  padding:5px;
+  width: 141px;
+  height: 50px;
+  
+}
+.active-btn{
+  background-color: #0376b8;
+}
+.active-btn:hover{
+  background-color: #013654;
+}
+.notActive-btn{
+  background-color: #666;
+}
+.active-btn:hover , .notActive-btn:hover{
+  color: #fff;
+  text-decoration: none;
+}
+/*
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet);
+  --bs-btn-border-color: var(--bd-violet);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}*/
