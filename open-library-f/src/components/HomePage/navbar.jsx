@@ -1,17 +1,11 @@
 import React from 'react';
-import './style.css';
 import Openlib from './images/openlibrary-logo-tighter.svg';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-//import Button from 'react-bootstrap/Button';
-//import Dropdown from 'react-bootstrap/Dropdown';
-import Form from 'react-bootstrap/Form';
-//import InputGroup from 'react-bootstrap/InputGroup';
-//import SplitButton from 'react-bootstrap/SplitButton';
-//import Stack from 'react-bootstrap/Stack';
-//import Read from './images/read.png';
+//import Form from 'react-bootstrap/Form';
+import Searchbox from './SearchBox';
 
 function NavBar(){
   return(
@@ -36,14 +30,7 @@ function NavBar(){
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action10">Advanced Search</NavDropdown.Item>
         </NavDropdown>
-        <Form className="d-flex">
-        <Form.Control
-          type="search"
-          placeholder="Search"
-          className="me-2"
-          aria-label="Search"
-        />
-      </Form>
+        <Searchbox />
       <Navbar.Brand href="#action11">Log In</Navbar.Brand>
       <a href='#action2' className='signup-btn px-2 py-1'>Sign Up</a>{' '}
       <Navbar.Brand href="#action1    ">

@@ -77,6 +77,45 @@ border-radius: 5px;
   .banner-text{
     font-size: 0.9rem;
   }
+  /*searchbox*/
+  input:focus , #inputGroupSelect03:focus{
+    outline: none;
+    border: none;
+  }
+  #inputGroupSelect03{
+    background-color: none;
+  }
+  .search-cont{
+    background-color: #f9f9f9;
+    border-radius: 3px;
+  }
+  .search-input{
+    background-color: #f9f9f9;
+    color: #666;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  #search_box{
+    border: 1px solid #babbae;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    border-left: none;
+  }
+  .bi-search , #button-addon1{
+    background-color: #f9f9f9;
+  }
+  .search-type{
+    background-color: hsla(48,33%,83%,.32);
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #babbae;
+    border-left: 1px solid #babbae;
+    border-bottom: 1px solid #babbae;
+    border-radius: 3px 0 0 3px;
+    font-weight: 500;
+    color: #666;
+    font-size: 14px;
+  }
+ 
 /*open library books section*/
 .bookCard{
   min-width: 310px;
