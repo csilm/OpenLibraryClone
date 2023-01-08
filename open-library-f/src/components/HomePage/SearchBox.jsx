@@ -12,8 +12,8 @@ function Searchbox (){
                 <option value="3">Advanced</option>
             </select>
             </div>
-            <div className=" p-2 " id="search_box">
-                <form className="d-flex justify-content-between">
+            <div className="d-flex align-items-center p-2 " id="search_box">
+                <form className="d-flex justify-content-between align-items-center">
                     <input  class="w-75 border border-0  search-input" type="text" name="" placeholder="Search"/>
                     <button class="border border-0" type="submit" id="button-addon1"> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(118, 118, 118)" class="bi bi-search" viewBox="0 0 16 16">

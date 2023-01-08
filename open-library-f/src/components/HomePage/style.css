@@ -78,7 +78,11 @@ border-radius: 5px;
     font-size: 0.9rem;
   }
   /*searchbox*/
-  input:focus , #inputGroupSelect03:focus{
+  input:focus {
+    outline: none;
+    border: none;
+  }
+  #inputGroupSelect03:focus{
     outline: none;
     border: none;
   }
