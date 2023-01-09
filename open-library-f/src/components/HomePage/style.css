@@ -78,16 +78,14 @@ border-radius: 5px;
     font-size: 0.9rem;
   }
   /*searchbox*/
-  input:focus {
-    outline: none;
-    border: none;
-  }
-  #inputGroupSelect03:focus{
-    outline: none;
-    border: none;
+  input:focus , select:focus , option:focus ,#inputGroupSelect03:focus{
+    outline: none !important;
+    border: none !important;
   }
   #inputGroupSelect03{
     background-color: none;
+    background-color: inherit;
+    border: none;
   }
   .search-cont{
     background-color: #f9f9f9;

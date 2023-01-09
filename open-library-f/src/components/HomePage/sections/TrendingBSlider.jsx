@@ -1,33 +1,38 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import openLibList from './OpenLibList';
-import OpenLibBook from './OpenLibBook';
+import TrendingBList from "./TrendingBooksList";
 
-function GetBook(book){
-    return(
-      <OpenLibBook 
-      key = {book.id}
-      imageUrl = {book.imgUrl}
-      title = {book.title}
-      bbody = {book.bookbody}
-     />
-    );
-  }
+function GetBook(props){
+  return(
+          <div className="d-flex flex-column justify-content-center align-items-center">
+            <div className="trendBook">
+                <img src={props.imgUrl} alt="book_title" className="img-fluid float-start" />
+            </div>
+            <div className="trendBtn my-3">
+                   <button href="#action1" className={props.btnStyle}>
+                    {props.status}
+                </button>
+                
+            </div>
+
+          </div>
+  );}
+
 export default class Responsive extends Component {
     render() {
       var settings = {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 6,
+        slidesToScroll: 6,
         initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 4,
+              slidesToScroll: 4,
               infinite: true,
               dots: false
             }
@@ -35,8 +40,8 @@ export default class Responsive extends Component {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               initialSlide: 1
             }
           },
@@ -52,7 +57,7 @@ export default class Responsive extends Component {
       return (
         <div >
             <Slider {...settings}>
-              {openLibList.map(GetBook)}
+              {TrendingBList.map(GetBook)}
            </Slider>
         
         </div>

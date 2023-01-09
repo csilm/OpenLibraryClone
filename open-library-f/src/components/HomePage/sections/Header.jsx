@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import Logo from './images/ia-logo.svg';
 import Lang from './images/language-icon.svg';
 import Container from 'react-bootstrap/Container';

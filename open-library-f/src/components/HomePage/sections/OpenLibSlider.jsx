@@ -1,33 +1,36 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import TrendingBList from "./TrendingBooksList";
-import TrendingBook from "./TrendingBook";
+import openLibList from './OpenLibList';
 
-function GetBook(book){
-    return(
-      <TrendingBook 
-        key = {book.id}
-        imageUrl = {book.imgUrl}
-        status = {book.status}
-        btnStyle = {book.btnStyle}
-     />
-    );
-  }
+function GetlibBooks(props){
+  return(
+    <div className="bookCard w-25 d-flex justify-content-start align-items-center">
+      <div>
+          <img src={props.imgUrl} alt={props.name} className="cardImage"/>
+      </div>
+      <div className="booksDesc ms-2 me-2">
+          <h5 className="bookTitle text-start">{props.title}</h5>
+          <p className="bookBody text-start">{props.bookbody}</p>
+      </div>
+      
+    </div>
+  );}
+
 export default class Responsive extends Component {
     render() {
       var settings = {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 6,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 4,
-              slidesToScroll: 4,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               infinite: true,
               dots: false
             }
@@ -35,8 +38,8 @@ export default class Responsive extends Component {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 1,
+              slidesToScroll: 1,
               initialSlide: 1
             }
           },
@@ -52,7 +55,7 @@ export default class Responsive extends Component {
       return (
         <div >
             <Slider {...settings}>
-              {TrendingBList.map(GetBook)}
+              {openLibList.map(GetlibBooks)}
            </Slider>
         
         </div>

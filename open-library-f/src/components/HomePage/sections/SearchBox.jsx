@@ -2,7 +2,7 @@ function Searchbox (){
     return(
         <div class="w-70  d-flex justify-content-start search-cont" >
             <div className="search-type p-2">
-            <select class="form-select border border-0" id="inputGroupSelect03">
+            <select class="" id="inputGroupSelect03">
                 <option selected>All</option>
                 <option value="1">Title</option>
                 <option value="2">Author</option>
