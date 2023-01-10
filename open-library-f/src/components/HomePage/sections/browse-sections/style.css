@@ -7,3 +7,10 @@
     font-weight: 600;
     font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
 }
+.b-links{
+    color: #02598b;
+    line-height: 1.5em;
+}
+.b-links:hover{
+    color: #003266;
+}
