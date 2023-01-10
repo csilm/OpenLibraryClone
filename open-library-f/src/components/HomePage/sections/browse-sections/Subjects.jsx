@@ -19,10 +19,10 @@ function Subjects(){
                 <div>
                     <h3>Subjects</h3>
                     <div>
-                        <p>Last edited by <span><a>LeadSongDog</a></span></p>
+                        <p>Last edited by <span><a href="#action">LeadSongDog</a></span></p>
                         <div>March 2, 2021</div>
                         <div class="vr"></div>
-                        <div><a href="action2">History</a></div>
+                        <div><a href="#action2">History</a></div>
                      
                     </div>
                     <div>
