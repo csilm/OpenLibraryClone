@@ -1,0 +1,9 @@
+.styled-list{
+    list-style: disc;
+}
+.cat-head , .cat-head>a{
+    font-size: 1em;
+    color: #666;
+    font-weight: 600;
+    font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+}

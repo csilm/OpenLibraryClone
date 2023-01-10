@@ -13,9 +13,9 @@ function NavBar(){
       <Navbar.Brand href="https://openlibrary.org/"> <img src={Openlib} alt='openLibrary' width={189} className='ms-2'/></Navbar.Brand>
       <Nav.Link href="#action1">My Books</Nav.Link> 
       <NavDropdown title="Browse" id="navbarScrollingDropdown"> 
-          <NavDropdown.Item href="#action3">Subjects</NavDropdown.Item>
+          <NavDropdown.Item href="/sections/browse-sections/Subjects">Subjects</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action4">Trending</NavDropdown.Item>
+          <NavDropdown.Item href="/sections/browse-sections/Trending">Trending</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action5">Library Explorer</NavDropdown.Item>
           <NavDropdown.Divider />
