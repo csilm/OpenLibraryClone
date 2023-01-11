@@ -44,8 +44,9 @@
     font-weight: 600;
     font-size: 1.875em;
 }
-.gray{
+.gray-bold{
     color: #666;
+    font-weight: 600;
 }
 .black{
     color: #333;
@@ -56,5 +57,36 @@
 }
 .p{
     font-size: .875em;
+    line-height: 1.5em;
+}
+.small{
+    font-size: 0.8em !important;
+}
+.x-small{
+    font-size: .6875em !important;
+}
+.trend-item{
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #f2f0e7;
+}
+.book-cover{
+    width: 175px;
+}
+.book-cover a img{
+        border-radius: 4px;
+        max-width: 100%;
+        max-height: 300px;
+        width: 175px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+.book-title >a{
+    color: #333;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
     line-height: 1.5em;
 }

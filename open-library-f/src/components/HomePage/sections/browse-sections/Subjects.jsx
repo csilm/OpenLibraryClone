@@ -186,14 +186,34 @@ function Subjects(){
                     </div>
                 </div>
                 <hr />
-                <div>
-                    <h3 className="gray">What's a subject heading?</h3>
+                <div >
+                    <h3 className="gray-bold fs-6">What's a subject heading?</h3>
                     <p className="my-4 black p mx-2">
                     As the wise Wikipedia says: "The Library of Congress Subject Headings (LCSH) comprise a thesaurus (in the information science sense, a controlled vocabulary) of subject headings, maintained by the United States Library of Congress, for use in bibliographic records. LC Subject Headings are an integral part of bibliographic control, which is the function by which libraries collect, organize, and disseminate documents.... Subject headings are normally applied to every item within a library's collection and facilitate a user's access to items in the catalog that pertain to similar subject matter."
                     </p>
                     <p className="mb-2 black p mx-2">
                     Side note: Interestingly, professional library catalogers are often restricted to a limit of 3 in the number of subjects they may use. We collect general subjects, places mentioned, people mentioned, and even the time period the book is about. Feel free to imitate or enhance existing headings, or create an entirely new one. Or two. Or three. Or five.
                     </p>
+                </div>
+                <div className="mt-5 d-flex align-items-center">
+                    <h2 className="gray-bold fs-5 me-2 lh-base">History</h2>
+                    <p className="lh-base m-0 small">Created February 25, 2021.<span><a href="#action" className="black">3 revisions</a></span></p>
+                </div>
+                <div>
+                <table class="table table-borderless table-sm">
+                    <tr className="table-secondary">
+                        <td className="">
+                            <p className="x-small"><a href="#action">March 2, 2021</a></p>
+                        </td>
+                        <td className="">
+                            <p className="x-small">Edited by <a href="#action">LeadSongDog</a></p>
+                        </td>
+                        <td className="">
+                            <p className="x-small">Wikipedia hasn’t said that since 2010</p>
+                        </td>
+                    </tr>
+                </table>
+
                 </div>
             </Container>
 
