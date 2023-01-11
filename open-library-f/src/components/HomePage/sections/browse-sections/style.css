@@ -14,3 +14,47 @@
 .b-links:hover{
     color: #003266;
 }
+.gray11{
+    font-size: 11px;
+    font-weight: 400;
+    color: #615132!important;
+}
+.vr{
+    height: 12px !important;
+    margin-top: 3px;
+}
+.edit-btn{
+    color: #666;
+    font-size: 16px!important;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+    color: #666;
+    border: 1px solid #999;
+    cursor: pointer;
+    transition: background-color .2s;
+    text-decoration: none;
+}
+.edit-btn:hover{
+    color: #666;
+    background-color: #e8e8e8;
+}
+.big-title{
+    font-weight: 600;
+    font-size: 1.875em;
+}
+.gray{
+    color: #666;
+}
+.black{
+    color: #333;
+}
+.submit-btn{
+    width: 72px !important;
+    font-size: 12px;
+}
+.p{
+    font-size: .875em;
+    line-height: 1.5em;
+}

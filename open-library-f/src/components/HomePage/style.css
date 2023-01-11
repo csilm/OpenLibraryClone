@@ -78,7 +78,7 @@ border-radius: 5px;
     font-size: 0.9rem;
   }
   /*searchbox*/
-  input:focus , select:focus , option:focus ,#inputGroupSelect03:focus{
+  .search-input:focus , select:focus , option:focus ,#inputGroupSelect03:focus{
     outline: none !important;
     border: none !important;
   }
